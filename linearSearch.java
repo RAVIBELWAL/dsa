@@ -1,4 +1,4 @@
-package learn;
+package dsa;
 
 public class linearSearch {
 
