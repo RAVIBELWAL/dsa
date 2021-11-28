@@ -1,5 +1,4 @@
 /*
-
 9 9
 1 2
 1 7
@@ -10,7 +9,6 @@
 4 6
 4 5   
 3 4
-
 */
 
 import java.util.*;
@@ -21,7 +19,7 @@ public class adjacencyMatrix
     Scanner sc=new Scanner(System.in);
     int n,m;
     n=sc.nextInt();
-    m=sc.nextInt();
+    m=sc.nextInt();//
     
     List<Integer>[] adjacencyList=new ArrayList[20];
     for(int i=1;i<=n;i++)
