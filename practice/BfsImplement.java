@@ -25,8 +25,8 @@ public class myAdList{
         adjList[v].add(u);
         
         }
-         for(int i=0;i<=n;i++)
-             System.out.println(i+"->"+adjList[i]);
+       //  for(int i=0;i<=n;i++)
+        //     System.out.println(i+"->"+adjList[i]);
         
   ///bfs
 	    Queue<Integer> q=new LinkedList<>();
