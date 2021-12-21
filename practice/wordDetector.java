@@ -9,8 +9,12 @@
  o/p : fasle
 */
 
+/*   1.O(n*n)
+     2.O(n)
+*/
 
-// O(log(n*n))
+
+// O(n*n)
 
 import java.io.*;
 import java.util.*;
@@ -43,7 +47,7 @@ public class wordDetector {
 }
 
 
-///O(logn)
+///O(n)
 
 import java.util.Scanner;
 
