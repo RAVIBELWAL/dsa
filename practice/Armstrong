@@ -1,0 +1,20 @@
+
+import java.util.*;
+import java.io.*;
+
+public class Armstrong {
+    public static void main(String args[]) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int temp=n,reminder=0,sum=0;
+
+        while(temp!=0)
+        {
+            reminder=temp%10;   // find number as ith num
+            sum=sum+(reminder*reminder*reminder); //sum  (number n)^3
+            temp/=10;  //reduce number 
+        }
+
+        if(n==sum){System.out.print(1); }else{System.out.print(0); } //if num==sum
+    }
+}
